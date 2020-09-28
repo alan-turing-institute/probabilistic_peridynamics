@@ -1,6 +1,7 @@
 meshio
 numpy
 pyopencl==2020.1
+Cython>=0.29
 scipy
 tqdm
 h5py

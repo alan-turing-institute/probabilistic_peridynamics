@@ -62,7 +62,7 @@ exclude_patterns = []
 html_theme = 'alabaster'
 html_theme_options = {
     'github_user': 'alan-turing-institute',
-    'github_repo': 'probabilistic-peridynamics',
+    'github_repo': 'PeriPy',
     'github_banner': True,
     'fixed_sidebar': True,
     'sidebar_width': '250px'
