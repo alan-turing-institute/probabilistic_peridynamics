@@ -50,6 +50,7 @@ setup(
     author="Jim Madge, Ben Boys, Tim Dodwell, Greg Mingas",
     license="MIT",
     packages=find_packages(exclude=['*.test']),
+    zip_safe=False,
     include_package_data=True,
     entry_points={
         'console_scripts': ['peripy=peripy.cli:main']
