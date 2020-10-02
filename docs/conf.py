@@ -12,15 +12,13 @@
 #
 import os
 import sys
-# sys.path.insert(0, os.path.abspath('../peripy/'))
-# sys.path.insert(0, os.path.abspath('../../peripy'))
-# sys.path.insert(0, os.path.abspath('../..'))
-sys.path.insert(0, os.path.abspath('..'))
+
+sys.path.insert(0, os.path.abspath('../'))
 
 # Add type of source files
 source_suffix = ['.rst', '.md']
 
-master_doc = 'contents'
+master_doc = 'index'
 
 # -- Project information -----------------------------------------------------
 
