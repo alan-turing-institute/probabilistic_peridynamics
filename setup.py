@@ -42,11 +42,11 @@ ext_modules = [
 
 setup(
     name="peripy",
-    version="0.1.1",
+    version="0.2.0",
     description="A fast OpenCL Peridynamics package for python",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/alan-turing-institute/Probabilistic-Peridynamics",
+    url="https://github.com/alan-turing-institute/PeriPy",
     author="Jim Madge, Ben Boys, Tim Dodwell, Greg Mingas",
     license="MIT",
     packages=find_packages(exclude=['*.test']),
