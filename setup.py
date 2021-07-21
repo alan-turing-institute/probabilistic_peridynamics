@@ -64,5 +64,6 @@ setup(
         'h5py',
         'sklearn',
         'tqdm',
+        'sphinx_rtd_theme'
         ]
     )

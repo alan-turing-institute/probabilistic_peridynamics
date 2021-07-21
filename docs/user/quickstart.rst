@@ -22,12 +22,12 @@ functions implementing the boundarys.
 The Integrator class
 --------------------
 
-The :class:` peripy.integrators.Integrator` is the explicit time
-integration method, see :mod:` peripy.integrators` for options.
+The :class:`peripy.integrators.Integrator` is the explicit time
+integration method, see :mod:`peripy.integrators` for options.
 Any integrator with the suffix 'CL' uses OpenCL kernels to calculate the
 bond force and displacement update, resulting in orders of magnitude faster
 simulation time when compared to using the cython implementation,
-:class:` peripy.integrators.Euler`. OpenCL is 'heterogeneous' which
+:class:`peripy.integrators.Euler`. OpenCL is 'heterogeneous' which
 means the 'CL' integrator classes will work on a CPU device as well as a
 GPU device. The preferable (faster) CL device will be chosen automatically.
 
@@ -80,7 +80,7 @@ pairs of nodes between which the crack is.
 If it is more convenient to define the crack as a function you may also
 pass a function to the constructor which takes the array of coordinates as
 its only argument and returns a list of tuples as described above. The
-:func:` peripy.model.initial_crack_helper` decorator has been provided
+:func:`peripy.model.initial_crack_helper` decorator has been provided
 to easily create a function of the correct form from one which tests a
 single pair of node coordinates and returns `True` or `False`.
 
